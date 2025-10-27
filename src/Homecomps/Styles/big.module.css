@@ -10,7 +10,7 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 28rem;
+  max-width: 38rem;
   height: 460px;
   display: flex;
   justify-content: center;
