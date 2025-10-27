@@ -368,10 +368,10 @@ function Big() {
     );
   };
 
-  useEffect(() => {
-    const interval = setInterval(nextSlide, 10000);
-    return () => clearInterval(interval);
-  });
+  // useEffect(() => {
+  //   const interval = setInterval(nextSlide, 10000);
+  //   return () => clearInterval(interval);
+  // });
 
   return (
     <div className="relative overflow-hidden font-manrope mt-24 text-blackk pb-4">
