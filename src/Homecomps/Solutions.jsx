@@ -221,10 +221,10 @@
 
 //       <div className="font-manrope mb-5 py-4 px-4 sm:px-6 lg:px-8">
 
-//         <h2 className="text-bloo  text-center fontsize_2 fontweight_1 py-2 ">
+//         <h2 className="text-bloo  text-center fontsize_2 font-600 py-2 ">
 //           Industries We Serve
 //         </h2>
-//         <h1 className="text-blackk  fontweight_1 mb-9 text-center text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
+//         <h1 className="text-blackk  font-600 mb-9 text-center text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
 //           IT & Software Development Solutions for Industries
 //         </h1>
 

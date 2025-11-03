@@ -25,13 +25,13 @@ function SimuLift() {
     <div className="">
       <div className="max-w-7xl  mx-auto px-4 2xl:pt-12 pt-32">
         <div className="w-full">
-          <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+          <h1 className="text-bloo font-600 text-center fontsize_2  py-2">
             SimuLIFT
           </h1>
-          <h2 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
+          <h2 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
             Quote and Sizing tool for Artificial Lift Methods
           </h2>
-          <p className="fontweight_1 max-w-4xl mx-auto  text-blackk/60 fontsize_3 pt-4 px-4">
+          <p className="font-600 max-w-4xl mx-auto  text-blackk/60 fontsize_3 pt-4 px-4">
             Development of a software application to design artificial lift
             solutions for the oil industry covering different artificial lift
             methods from ESP design to PCP and Hydraulic Rod pump systems.
@@ -42,49 +42,49 @@ function SimuLift() {
           </div>
         </div>
         <div className="w-full pb-6">
-          <h2 className="text-blackk max-w-3xl pb-2 fontweight_1 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] pt-12">
+          <h2 className="text-blackk max-w-3xl pb-2 font-600 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] pt-12">
             Key Challenges
           </h2>
           <div className="max-w-3xl  mx-auto flex flex-col py-4 gap-4">
             <div className="flex gap-4 ">
-              <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+              <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                 01
               </h1>
-              <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+              <p className="font-600 text-blackk/60 fontsize_3 py-2">
                 {" "}
                 Designing a comprehensive tool that integrates various
                 artificial lift methods
               </p>
             </div>
             <div className="flex gap-4">
-              <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+              <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                 02
               </h1>
-              <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+              <p className="font-600 text-blackk/60 fontsize_3 py-2">
                 Ensuring accurate and reliable data for quoting and sizing.
               </p>
             </div>
             <div className="flex gap-4">
-              <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+              <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                 03
               </h1>
-              <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+              <p className="font-600 text-blackk/60 fontsize_3 py-2">
                 Facilitating ease of use for sales and engineering teams.
               </p>
             </div>
             <div className="flex gap-4">
-              <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+              <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                 04
               </h1>
-              <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+              <p className="font-600 text-blackk/60 fontsize_3 py-2">
                 Integrating with existing systems for seamless data flow.
               </p>
             </div>
             <div className="flex gap-4">
-              <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+              <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                 05
               </h1>
-              <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+              <p className="font-600 text-blackk/60 fontsize_3 py-2">
                 Providing extensive reporting features for detailed analysis.
               </p>
             </div>
@@ -93,13 +93,13 @@ function SimuLift() {
       </div>
       <div className="bg-zinc-50 py-12 mt-12">
         <div className="max-w-7xl mx-auto px-4">
-          <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+          <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
             About Our Client
           </h1>
-          <h2 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
+          <h2 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
             HALLIBURTON
           </h2>
-          <p className="fontweight_1 text-blackk/60 fontsize_3 pt-4">
+          <p className="font-600 text-blackk/60 fontsize_3 pt-4">
             Founded in 1919, Halliburton is one of the world's leading providers
             of products and services to the energy industry. They create
             innovative technologies, products, and services that help our
@@ -110,7 +110,7 @@ function SimuLift() {
       </div>
       <div className="max-w-7xl mx-auto px-4">
         <div className="pt-20 pb-6">
-          <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+          <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
             Unlocking Success
           </h1>
         </div>
@@ -122,10 +122,10 @@ function SimuLift() {
               </div>
               <div>
                 <div className="flex flex-col p-2 text-start justify-end">
-                  <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl">
+                  <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl">
                     IDEATION:
                   </h1>
-                  <p className="z-20 fontweight_1 text-blackk/60 fontsize_3">
+                  <p className="z-20 font-600 text-blackk/60 fontsize_3">
                     We envisioned a robust software tool that could simplify the
                     process of designing and quoting artificial lift solutions.
                     Our focus was on creating an intuitive platform that
@@ -143,10 +143,10 @@ function SimuLift() {
               </div>
               <div>
                 <div className="flex flex-col p-2 text-start justify-end ">
-                  <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl">
+                  <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl">
                     OUR APPROACH
                   </h1>
-                  <p className="z-20 fontweight_1 text-blackk/60 fontsize_3">
+                  <p className="z-20 font-600 text-blackk/60 fontsize_3">
                     We prioritized the development of an easy-to-use interface
                     that could handle various artificial lift methods. By
                     integrating comprehensive data inputs and offering detailed
@@ -167,10 +167,10 @@ function SimuLift() {
               </div>
               <div>
                 <div className="flex flex-col p-2 text-start">
-                  <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl">
+                  <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl">
                     OUTCOMES
                   </h1>
-                  <p className="z-20 fontweight_1 text-blackk/60 fontsize_3">
+                  <p className="z-20 font-600 text-blackk/60 fontsize_3">
                     The development of SimuLIFT has significantly enhanced
                     Halliburton's ability to design and quote artificial lift
                     solutions. Its user-friendly interface, combined with robust
@@ -186,50 +186,50 @@ function SimuLift() {
         </div>
       </div>
       <div className="w-full pb-20 px-4">
-        <h2 className="text-blackk max-w-3xl pb-2 fontweight_1 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] pt-12">
+        <h2 className="text-blackk max-w-3xl pb-2 font-600 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] pt-12">
           Project Outcomes
         </h2>
         <div className="max-w-3xl mx-auto flex flex-col py-4 gap-4">
           <div className="flex gap-4 rounded-xl border-2 border-blue-900/60 p-4 shadow-md shadow-blue-900/20">
-            <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+            <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
               01
             </h1>
-            <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+            <p className="font-600 text-blackk/60 fontsize_3 py-2">
               Successfully developed a comprehensive quote and sizing tool for
               artificial lift methods.
             </p>
           </div>
           <div className="flex gap-4 rounded-xl border-2 border-blue-900/60 p-4 shadow-md shadow-blue-900/20">
-            <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+            <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
               02
             </h1>
-            <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+            <p className="font-600 text-blackk/60 fontsize_3 py-2">
               Enhanced the ability to design and quote using various lift
               methods accurately.
             </p>
           </div>
           <div className="flex gap-4 rounded-xl border-2 border-blue-900/60 p-4 shadow-md shadow-blue-900/20">
-            <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+            <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
               03
             </h1>
-            <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+            <p className="font-600 text-blackk/60 fontsize_3 py-2">
               Improved data integration for seamless information flow.
             </p>
           </div>
           <div className="flex gap-4 rounded-xl border-2 border-blue-900/60 p-4 shadow-md shadow-blue-900/20">
-            <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+            <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
               04
             </h1>
-            <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+            <p className="font-600 text-blackk/60 fontsize_3 py-2">
               Provided extensive reporting features for detailed project
               analysis.
             </p>
           </div>
           <div className="flex gap-4 rounded-xl border-2 border-blue-900/60 p-4 shadow-md shadow-blue-900/20">
-            <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+            <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
               05
             </h1>
-            <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+            <p className="font-600 text-blackk/60 fontsize_3 py-2">
               Developed a versatile tool that supports both engineering and
               sales functions.
             </p>
@@ -237,10 +237,10 @@ function SimuLift() {
         </div>
       </div>
       <div className="py-12 bg-zinc-50">
-        <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+        <h1 className="text-bloo font-600 text-center fontsize_2  py-2">
           More Like This
         </h1>
-        <h2 className="text-blackk max-w-3xl pb-2 text-center fontweight_1 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px]">
+        <h2 className="text-blackk max-w-3xl pb-2 text-center font-600 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px]">
           Take a look at other Case Studies
         </h2>
         <div className="max-w-7xl mx-auto" style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-evenly" }} >
@@ -255,10 +255,10 @@ function SimuLift() {
                                     className="  transition duration-300 filter grayscale hover:grayscale-0"
                                 />
                                 <div className="p-3 md:p-4">
-                                    <h3 className="fontweight_1 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
+                                    <h3 className="font-600 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
                                         PetroSIM
                                     </h3>
-                                    <p className=" text-blackk/60 fontsize_3 fontweight_1 text-left">
+                                    <p className=" text-blackk/60 fontsize_3 font-600 text-left">
                                         Product Quality Assurance for Refinery Simulation Tool
                                     </p>
                                 </div>
@@ -276,10 +276,10 @@ function SimuLift() {
                                     className=" transition duration-300 filter grayscale hover:grayscale-0"
                                 />
                                 <div className="p-3 md:p-4">
-                                    <h3 className="fontweight_1 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
+                                    <h3 className="font-600 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
                                         RE.LI Monitor
                                     </h3>
-                                    <p className=" text-blackk/60 fontsize_3 fontweight_1 text-left">
+                                    <p className=" text-blackk/60 fontsize_3 font-600 text-left">
                                         Developed a Real Time Sensor monitoring tool using SCADA
                                     </p>
                                 </div>
@@ -297,10 +297,10 @@ function SimuLift() {
                                     className=" transition duration-300 filter grayscale hover:grayscale-0"
                                 />
                                 <div className="p-3 md:p-4">
-                                    <h3 className="fontweight_1 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
+                                    <h3 className="font-600 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
                                         ESPCT Quote
                                     </h3>
-                                    <p className=" text-blackk/60 fontsize_3 fontweight_1 text-left">
+                                    <p className=" text-blackk/60 fontsize_3 font-600 text-left">
                                         Web Based Sales and Quotation Tool
                                     </p>
                                 </div>

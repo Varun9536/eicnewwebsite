@@ -649,7 +649,7 @@ const OurServices = () => {
               className="group cursor-pointer  py-1 text-blackk/60 transition-colors"
             >
               <MdOutlineAppRegistration size={40} className="mb-2 text-bloo" />
-              <div className="text-md text-left fontweight_1 text-blackk">
+              <div className="text-md text-left font-600 text-blackk">
                 App Development
               </div>
 
@@ -668,7 +668,7 @@ const OurServices = () => {
               <div className="">
                 <LuCircuitBoard size={40} className="mb-2 text-bloo" />
               </div>
-              <div className="text-md text-left fontweight_1 text-blackk">
+              <div className="text-md text-left font-600 text-blackk">
                 Emerging Tech
               </div>
 
@@ -684,7 +684,7 @@ const OurServices = () => {
               className="group cursor-pointer  pt-2 text-blackk/60 transition-colors "
             >
               <FaPeopleArrows size={40} className=" mb-2 text-bloo" />
-              <div className="text-md text-left fontweight_1 text-blackk">
+              <div className="text-md text-left font-600 text-blackk">
                 Consultancy Services
               </div>
 
@@ -700,7 +700,7 @@ const OurServices = () => {
               className="group cursor-pointer  py-1 text-blackk/60 transition-colors "
             >
               <IoIosBuild size={40} className=" mb-2 text-bloo" />
-              <div className="text-md text-left fontweight_1 text-blackk">
+              <div className="text-md text-left font-600 text-blackk">
                 Flagship Services
               </div>
 
@@ -1002,17 +1002,17 @@ const Home = () => {
 
       {/* <Separator /> */}
       <div className="flex flex-col gap-0.5 items-center justify-center xl:pt-8 pt-4 w-screen px-2 mb-4 sm:mb-8 md:mb-12">
-        <p className="text-bloo fontsize_2 fontweight_1  py-2">
+        <p className="text-bloo fontsize_2 font-600  py-2">
           Core Services
         </p>
-        {/* <h2 className="text-blackk fontweight_1 text-center text-2xl sm:text-3xl md:text-3xl lg:text-[32px] max-w-4xl py-1">
+        {/* <h2 className="text-blackk font-600 text-center text-2xl sm:text-3xl md:text-3xl lg:text-[32px] max-w-4xl py-1">
           Unlocking Innovation: <br className="sm:hidden" />
           Explore Our Suite of Solutions for Your Digital Evolution
         </h2> */}
 
 
 {/* new chnage */}
-        <h2 className="text-blackk fontweight_1 text-center text-2xl sm:text-3xl md:text-3xl lg:text-[32px] max-w-4xl py-1">
+        <h2 className="text-blackk font-600 text-center text-2xl sm:text-3xl md:text-3xl lg:text-[32px] max-w-4xl py-1">
           Unlocking Innovation: Explore Our Suite of
           Solutions for Your Digital Evolution
         </h2>
@@ -1021,7 +1021,7 @@ const Home = () => {
 
 
 
-        {/* <h2 className="text-blackk fontweight_1 text-center fontsize_2 max-w-4xl py-1 ">
+        {/* <h2 className="text-blackk font-600 text-center fontsize_2 max-w-4xl py-1 ">
           Unlocking Innovation: 
           Explore Our Suite of Solutions 
           <div>

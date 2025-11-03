@@ -19,7 +19,7 @@ function Resourcesmain() {
       <div className="bg-gradient-to-br mt-24 from-cyan-100/10 to-bloo/10 w-screen 2xl:h-[35vh] h-[60vh] bg-cover bg-no-repeat ">
         <div className=" max-w-7xl mx-auto w-full h-full">
           <div className="2xl:pt-0  flex flex-col items-center justify-center w-full h-full ">
-            <h1 className="text-blackk fontweight_1 text-center fontsize_6 py-2">
+            <h1 className="text-blackk font-600 text-center fontsize_6 py-2">
               EICE Resources
             </h1>
             <h2 className="text-bloo font-semibold text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-4">
@@ -38,12 +38,12 @@ function Resourcesmain() {
       <div className="pb-7"></div>
 
       <div className="max-w-7xl mx-auto py-8 sm:py-12 px-4 sm:px-6 lg:px-8">
-        <h1 className="text-blackk fontweight_1 text-center text-2xl sm:text-3xl lg:text-4xl max-w-3xl mx-auto mb-8 sm:mb-12">
+        <h1 className="text-blackk font-600 text-center text-2xl sm:text-3xl lg:text-4xl max-w-3xl mx-auto mb-8 sm:mb-12">
           Discover, Innovate and Excel with EICE
         </h1>
         <div className="grid lg:grid-cols-3 grid-cols-1 xl:gap-0 gap-12 justify-center items-center">
           <div className="flex flex-col col-span-2">
-            <h2 className="text-blackk text-left fontweight_1 text-2xl sm:text-3xl lg:text-4xl mb-4">
+            <h2 className="text-blackk text-left font-600 text-2xl sm:text-3xl lg:text-4xl mb-4">
               Case Studies
             </h2>
             <p className="font-medium text-blackk/60 max-w-2xl text-base sm:text-lg mb-6">

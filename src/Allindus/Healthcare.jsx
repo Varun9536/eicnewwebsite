@@ -52,7 +52,7 @@ const KeyService = ({ title, description, image }) => (
         className="w-full h-48 object-cover transition duration-300 filter grayscale hover:grayscale-0"
       />
       <div className="p-4">
-        <h3 className="fontweight_1 text-lg mb-2">{title}</h3>
+        <h3 className="font-600 text-lg mb-2">{title}</h3>
         <p className="text-gray-600 text-sm">{description}</p>
       </div>
     </div>
@@ -128,7 +128,7 @@ const CaseStudy = ({ title, description, image }) => (
         className="w-full h-32 sm:h-40 md:h-48 object-cover transition duration-300 filter grayscale hover:grayscale-0"
       />
       <div className="p-3 md:p-4">
-        <h3 className="fontweight_1 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
+        <h3 className="font-600 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
           {title}
         </h3>
         <p className="text-gray-600 text-xs sm:text-sm">{description}</p>
@@ -142,10 +142,10 @@ function Cstdmain() {
 
   return (
     <div className="font-manrope px-4 sm:px-6 lg:px-8">
-      <h2 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+      <h2 className="text-bloo font-600 text-center fontsize_2  py-2">
         Case Studies
       </h2>
-      <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1 pb-8">
+      <h1 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1 pb-8">
         Explore how we digitally transformed other businesses
       </h1>
       <main className=" mx-auto max-w-7xl">
@@ -175,7 +175,7 @@ function Cstdmain() {
               activeIndustry === industry.id ? "block" : "hidden"
             }`}
           >
-            <h2 className="text-xl  px-2 sm:text-2xl fontweight_1 mb-4 sm:mb-6">
+            <h2 className="text-xl  px-2 sm:text-2xl font-600 mb-4 sm:mb-6">
               {industry.name}
             </h2>
             <div className="flex flex-wrap -mx-2">
@@ -246,7 +246,7 @@ function Healthcare() {
           <img src={healthrect3} alt="" />
         </div>
         <div className="max-w-7xl mx-auto text-center px-8 flex flex-col gap-2">
-          <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl pb-4">
+          <h1 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl pb-4">
             Transforming <span className="text-bloo">Healthcare</span> with
             Innovative Technology
           </h1>
@@ -264,10 +264,10 @@ function Healthcare() {
         </div>
 
         <div className="sm:max-w-3xl w-screen mx-auto text-center xl:pt-16 pt-8 xl:pb-6 pb-4">
-          <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+          <h1 className="text-bloo font-600 text-center fontsize_2  py-2">
             Key Services
           </h1>
-          <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl pb-4">
+          <h1 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl pb-4">
             Explore What We Offer
           </h1>
         </div>
@@ -303,7 +303,7 @@ function Healthcare() {
                       />
                       <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-black/90 rounded-xl to-black/30  -z-10"></div>
                       <div className="flex flex-col items-center justify-center h-full z-20 px-8 text-white">
-                        <h2 className="text-2xl fontweight_1 mb-2">
+                        <h2 className="text-2xl font-600 mb-2">
                           {service.name}
                         </h2>
                         <p className="font-medium text-white sm:text-xl text-lg">
@@ -317,7 +317,7 @@ function Healthcare() {
           </div>
         </div>
         <div className="pt-20 pb-6">
-          <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl pb-4">
+          <h1 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl pb-4">
             Our Healthcare and IT Software Solutions
           </h1>
         </div>
@@ -327,7 +327,7 @@ function Healthcare() {
               <BiCode size={48} className="text-bloo" />
             </div>
             <div className="pt-6 h-full text-left">
-              <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
+              <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 SOFTWARE DEVELOPMENT
               </h1>
               <p className="font-medium text-blackk/60 sm:text-xl text-lg px-4">
@@ -342,7 +342,7 @@ function Healthcare() {
               <IoAnalytics size={48} className="text-bloo" />
             </div>
             <div className="pt-6 h-full text-left">
-              <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
+              <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 COMPREHENSIVE REQUIREMENTS ANALYSIS
               </h1>
               <p className="font-medium text-blackk/60 sm:text-xl text-lg px-4">
@@ -358,7 +358,7 @@ function Healthcare() {
               <MdArchitecture size={48} className="text-bloo" />
             </div>
             <div className="pt-6 h-full text-left">
-              <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
+              <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 INNOVATIVE DESIGN AND PROTOTYPING
               </h1>
               <p className="font-medium text-blackk/60 sm:text-xl text-lg px-4">
@@ -373,7 +373,7 @@ function Healthcare() {
               <MdLocalPharmacy size={48} className="text-bloo" />
             </div>
             <div className="pt-6 h-full text-left">
-              <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
+              <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 PHARMACY MANAGEMENT SOFTWARE
               </h1>
               <p className="font-medium text-blackk/60 sm:text-xl text-lg px-4">
@@ -388,7 +388,7 @@ function Healthcare() {
               <BiSupport size={48} className="text-bloo" />
             </div>
             <div className="pt-6 h-full text-left">
-              <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl px-4">
+              <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl px-4">
                 MAINTENANCE AND SUPPORT
               </h1>
               <p className="font-medium text-blackk/60 sm:text-xl text-lg px-4">

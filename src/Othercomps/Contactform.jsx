@@ -304,7 +304,7 @@ function AddressCard({ country, company, address, phone, email }) {
   return (
     <div className="border-2 border-bloo/40 rounded-lg p-4 h-full flex flex-col justify-between">
       <div>
-        <h3 className="fontweight_1 text-blackk  text-lg">{country}</h3>
+        <h3 className="font-600 text-blackk  text-lg">{country}</h3>
         <p className="font-medium text-blackk/60  text-lg">{company}</p>
         <p className="font-medium text-blackk/60  text-lg">{address}</p>
         <p className="font-medium text-blackk/60  text-lg">{phone}</p>

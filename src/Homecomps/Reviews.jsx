@@ -53,13 +53,13 @@ function Reviews() {
   return (
     <div className="bg-white relative text-blackk py-6 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto px-4">
-        <h1 className="text-left text-bloo fontweight_1 text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] py-1">
+        <h1 className="text-left text-bloo font-600 text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] py-1">
           We Made Them Happy
         </h1>
         <h2 className="text-blackk/60 font-semibold text-start fontsize_2  py-2 pb-12 ">
           Trusted by Over{" "}
-          <span className="fontweight_1 text-blackk">60+ Companies</span> in the{" "}
-          <span className="fontweight_1 text-blackk">Past Decade</span>. Join Our
+          <span className="font-600 text-blackk">60+ Companies</span> in the{" "}
+          <span className="font-600 text-blackk">Past Decade</span>. Join Our
           Success Story!
         </h2>
         <div className="relative">
@@ -73,7 +73,7 @@ function Reviews() {
                   "{testimonials[index].quote}"
                 </p>
                 <div className="font-semibold">
-                  <p className="fontweight_1 text-xl mb-1">
+                  <p className="font-600 text-xl mb-1">
                     {testimonials[index].name}
                   </p>
                   <p className="text-bloo italic">

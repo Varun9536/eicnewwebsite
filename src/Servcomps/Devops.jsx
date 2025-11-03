@@ -101,7 +101,7 @@ const CaseStudy = ({ title, description, image }) => (
         className="w-full h-32 sm:h-40 md:h-48 object-cover transition duration-300 filter grayscale hover:grayscale-0"
       />
       <div className="p-3 md:p-4">
-        <h3 className="fontweight_1 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
+        <h3 className="font-600 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
           {title}
         </h3>
         <p className="text-gray-600 text-xs sm:text-sm">{description}</p>
@@ -115,10 +115,10 @@ function Cstdmain() {
 
   return (
     <div className="font-manrope px-4 sm:px-6 lg:px-8 ">
-      <h2 className="text-bloo text-center text-xl sm:text-2xl lg:text-3xl fontweight_1 mb-2 sm:mb-4 py-1">
+      <h2 className="text-bloo text-center text-xl sm:text-2xl lg:text-3xl font-600 mb-2 sm:mb-4 py-1">
         Case Studies
       </h2>
-      <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] max-w-7xl py-1 pb-8">
+      <h1 className="text-blackk  font-600 text-center text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] max-w-7xl py-1 pb-8">
         Explore how we digitally transformed other businesses
       </h1>
       <main className=" mx-auto max-w-7xl">
@@ -148,7 +148,7 @@ function Cstdmain() {
               activeIndustry === industry.id ? "block" : "hidden"
             }`}
           >
-            <h2 className="text-xl px-2 sm:text-2xl fontweight_1 mb-4 sm:mb-6">
+            <h2 className="text-xl px-2 sm:text-2xl font-600 mb-4 sm:mb-6">
               {industry.name}
             </h2>
             <div className="flex flex-wrap -mx-2">
@@ -178,7 +178,7 @@ function DevOps() {
           </div>
           <div className="flex lg:flex-row flex-col px-4 py-20 items-center">
             <div className="w-full">
-              <h1 className="text-blackk fontweight_1 fontsize_6 ">
+              <h1 className="text-blackk font-600 fontsize_6 ">
                 DevOps Services
               </h1>
               <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-left">
@@ -201,7 +201,7 @@ function DevOps() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
 
             <div>
-              <h1 className="text-blackk fontsize_2 fontweight_1">
+              <h1 className="text-blackk fontsize_2 font-600">
                 Comprehensive <span className="text-bloo"> DevOps </span> 
                 Bridging the Gap Between Development and Operations
               </h1>
@@ -230,10 +230,10 @@ function DevOps() {
 
 
       <div className="relative font-manrope mx-auto sm:max-w-7xl w-screen py-4 lg:pt-4  pb-12  ">
-        <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+        <h1 className="text-bloo font-600 text-center fontsize_2  py-2">
           Our DevOps Services
         </h1>
-        <h2 className="text-blackk fontweight_1 text-center text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
+        <h2 className="text-blackk font-600 text-center text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
           Our DevOps Expertise
         </h2>
         <div className="grid px-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 pt-8">
@@ -242,7 +242,7 @@ function DevOps() {
               <FaCloud size={48} className="text-bloo" />
             </div>
             <div className="pt-2 h-full text-left">
-              <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl ">
+              <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl ">
                 CLOUD INFRASTRUCTURE MANAGEMENT
               </h1>
               <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
@@ -258,7 +258,7 @@ function DevOps() {
               <FaCode size={48} className="text-bloo" />
             </div>
             <div className="pt-2 h-full text-left">
-              <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl ">
+              <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl ">
                 CONTINUOUS INTEGRATION AND DELIVERY (CI/CD)
               </h1>
               <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
@@ -273,7 +273,7 @@ function DevOps() {
               <FaCogs size={48} className="text-bloo" />
             </div>
             <div className="pt-2 h-full text-left">
-              <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl">
+              <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl">
                 CONFIGURATION MANAGEMENT
               </h1>
               <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
@@ -288,7 +288,7 @@ function DevOps() {
               <FaRocket size={48} className="text-bloo" />
             </div>
             <div className="pt-2 h-full text-left">
-              <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl">
+              <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl">
                 IZATION AND ORCHESTRATION
               </h1>
               <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
@@ -303,7 +303,7 @@ function DevOps() {
               <FaChartLine size={48} className="text-bloo" />
             </div>
             <div className="pt-2 h-full text-left">
-              <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl">
+              <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl">
                 MONITORING AND PERFORMANCE OPTIMIZATION
               </h1>
               <p className="font-medium text-blackk/60 sm:text-xl text-lg ">
@@ -318,7 +318,7 @@ function DevOps() {
               <FaShieldAlt size={48} className="text-bloo" />
             </div>
             <div className="pt-2 h-full text-left">
-              <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl">
+              <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl">
                 DEVSECOPS IMPLEMENTATION
               </h1>
               <p className="font-medium text-blackk/60 sm:text-xl text-lg ">

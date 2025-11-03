@@ -12,12 +12,12 @@ import { FaArrowRight } from "react-icons/fa";
 function Scopes() {
   return (
     <div className="font-manrope mx-auto sm:px-4 px-4 sm:max-w-7xl w-screen sm:pt-6  py-4">
-      <div className="text-center text-blackk fontweight_1 sm:text-4xl text-3xl">
+      <div className="text-center text-blackk font-600 sm:text-4xl text-3xl">
         <div className="flex flex-col items-center justify-center text-center sm:pb-6 pb-2">
-          <h1 className="text-bloo fontweight_1 fontsize_2 pb-4">
+          <h1 className="text-bloo font-600 fontsize_2 pb-4">
             Engage With Us
           </h1>
-          <h2 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
+          <h2 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
             Choosing an appropriate engagement method for your project
           </h2>
         </div>
@@ -37,7 +37,7 @@ function Scopes() {
               <div className="z-20 pb-8 justify-start flex w-full px-4">
                 <img src={ConstrainedBudget} alt="" className="scale-[1.2]" />
               </div>
-              <h1 className="text-white z-20 fontweight_1 text-4xl pb-4 px-2">
+              <h1 className="text-white z-20 font-600 text-4xl pb-4 px-2">
                 Constrained Budget
               </h1>
               <p className="z-20 text-white/90 text-lg px-2 text-left font-medium">
@@ -52,7 +52,7 @@ function Scopes() {
             <h1 className="w-full text-center text-blackk/50 font-semibold text-2xl pb-2">
               When to Choose
             </h1>
-            <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1 pb-8">
+            <h1 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1 pb-8">
               Constrained Budget Engagement
             </h1>
             <div className="flex flex-row gap-2 py-2">
@@ -84,7 +84,7 @@ function Scopes() {
               <div className="z-20 pb-8  flex w-full">
                 <img src={EvolvingScope} alt="" className="scale-[1.2]" />
               </div>
-              <h1 className="text-white z-20 fontweight_1 text-4xl pb-4 px-2">
+              <h1 className="text-white z-20 font-600 text-4xl pb-4 px-2">
                 Evolving Scope
               </h1>
               <p className="z-20 text-white/90 text-lg px-2 text-left font-medium">
@@ -99,7 +99,7 @@ function Scopes() {
             <h1 className="w-full text-center text-blackk/50 font-semibold text-2xl pb-2">
               When to Choose
             </h1>
-            <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1 pb-8">
+            <h1 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1 pb-8">
               Evolving Scope Engagement
             </h1>
 
@@ -131,7 +131,7 @@ function Scopes() {
             <h1 className="w-full text-center text-blackk/50 font-semibold text-2xl pb-2">
               When to Choose
             </h1>
-            <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1 pb-8">
+            <h1 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1 pb-8">
               Evolving Scope Engagement
             </h1>
 
@@ -162,7 +162,7 @@ function Scopes() {
               <div className="z-20 pb-8 px-4 flex w-full">
                 <img src={EvolvingScope} alt="" className="scale-[1.2]" />
               </div>
-              <h1 className="text-white z-20 fontweight_1 text-4xl pb-4 px-2">
+              <h1 className="text-white z-20 font-600 text-4xl pb-4 px-2">
                 Evolving Scope
               </h1>
               <p className="z-20 text-white/90 text-lg px-2 text-left font-medium">
@@ -180,7 +180,7 @@ function Scopes() {
               <div className="z-20 pb-8 px-4  flex w-full">
                 <img src={UnclearRequirements} alt="" className="scale-[1.2]" />
               </div>
-              <h1 className="text-white z-20 px-2 fontweight_1 text-4xl pb-4">
+              <h1 className="text-white z-20 px-2 font-600 text-4xl pb-4">
                 Unclear Requirements
               </h1>
               <p className="z-20 text-white/90 text-lg px-2 text-left font-medium">
@@ -195,7 +195,7 @@ function Scopes() {
             <h1 className="w-full text-center text-blackk/50 font-semibold text-2xl">
               When to Choose
             </h1>
-            <h1 className="text-blackk 2xl:text-nowrap text-wrap fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1 pb-8">
+            <h1 className="text-blackk 2xl:text-nowrap text-wrap font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1 pb-8">
               Unclear Requirement Engagement
             </h1>
             <div className="flex flex-row gap-2 py-2">

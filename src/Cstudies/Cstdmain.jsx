@@ -205,7 +205,7 @@ const CaseStudy = ({ link, title, description, image }) => (
         className="w-full h-32 sm:h-40 md:h-48 object-cover transition duration-300 filter grayscale hover:grayscale-0"
       />
       <div className="p-3 md:p-4">
-        <h3 className="fontweight_1 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
+        <h3 className="font-600 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
           {title}
         </h3>
         <p className="text-gray-600 text-xs sm:text-sm">{description}</p>
@@ -223,10 +223,10 @@ function Cstdmain() {
   return (
     <div className="font-manrope  xl:-mt-4">
       <header className="bg-gradient-to-r from-cyan-100/10 to-bloo/10 w-screen text-white 2xl:py-8 pt-32 pb-8 text-center">
-        <h1 className="text-blackk fontsize_6 fontweight_1 mb-4">
+        <h1 className="text-blackk fontsize_6 font-600 mb-4">
           CASE STUDIES
         </h1>
-        <p className="text-blackk text-xl fontweight_1  md:text-2xl max-w-3xl py-2 mx-auto px-4">
+        <p className="text-blackk text-xl font-600  md:text-2xl max-w-3xl py-2 mx-auto px-4">
           Explore{" "}
           <span className="text-bloo fontweight_2">Real-World Examples</span> of
           how EICE has transformed businesses across industries through
@@ -261,7 +261,7 @@ function Cstdmain() {
               activeIndustry === industry.id ? "block" : "hidden"
             }`}
           >
-            <h2 className="text-xl px-2 sm:text-2xl fontweight_1 mb-4 sm:mb-6">
+            <h2 className="text-xl px-2 sm:text-2xl font-600 mb-4 sm:mb-6">
               {industry.name}
             </h2>
             <div className="flex flex-wrap -mx-2">

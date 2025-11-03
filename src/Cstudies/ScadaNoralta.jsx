@@ -24,13 +24,13 @@ function ScadaNoralta() {
     <div className="">
       <div className="max-w-7xl  mx-auto px-4 2xl:pt-12 pt-32">
         <div className="w-full">
-          <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+          <h1 className="text-bloo font-600 text-center fontsize_2  py-2">
             Engineering Integration with SCADA
           </h1>
-          <h2 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
+          <h2 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
             Development of PLC Information Management System
           </h2>
-          <p className="fontweight_1 max-w-4xl mx-auto  text-blackk/60 fontsize_3 pt-4 px-4">
+          <p className="font-600 max-w-4xl mx-auto  text-blackk/60 fontsize_3 pt-4 px-4">
             Development of PLC Information Management System: A comprehensive
             solution integrating SCADA data and PLC business logic for efficient
             management and visualization of gas industry operations.
@@ -44,51 +44,51 @@ function ScadaNoralta() {
           </div>
         </div>
         <div className="w-full pb-6">
-          <h2 className="text-blackk max-w-3xl pb-2 fontweight_1 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] pt-12">
+          <h2 className="text-blackk max-w-3xl pb-2 font-600 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] pt-12">
             Key Challenges
           </h2>
           <div className="max-w-3xl  mx-auto flex flex-col py-4 gap-4">
             <div className="flex gap-4 ">
-              <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+              <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                 01
               </h1>
-              <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+              <p className="font-600 text-blackk/60 fontsize_3 py-2">
                 {" "}
                 Implementing real-time construction data updates on a GIS
                 platform
               </p>
             </div>
             <div className="flex gap-4">
-              <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+              <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                 02
               </h1>
-              <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+              <p className="font-600 text-blackk/60 fontsize_3 py-2">
                 Integrating diverse data sources (Customer data, Honeywell
                 SCADA, SAP) into a unified GIS system
               </p>
             </div>
             <div className="flex gap-4">
-              <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+              <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                 03
               </h1>
-              <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+              <p className="font-600 text-blackk/60 fontsize_3 py-2">
                 Developing a final pipe book in APDM format
               </p>
             </div>
             <div className="flex gap-4">
-              <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+              <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                 04
               </h1>
-              <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+              <p className="font-600 text-blackk/60 fontsize_3 py-2">
                 Ensuring seamless data flow between construction, operational,
                 and financial systems
               </p>
             </div>
             <div className="flex gap-4">
-              <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+              <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                 05
               </h1>
-              <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+              <p className="font-600 text-blackk/60 fontsize_3 py-2">
                 Creating a scalable solution that could be adapted for other
                 city gas projects, particularly in the Middle East
               </p>
@@ -98,13 +98,13 @@ function ScadaNoralta() {
       </div>
       <div className="bg-zinc-50 py-12 mt-12">
         <div className="max-w-7xl mx-auto px-4">
-          <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+          <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
             About Our Client
           </h1>
-          <h2 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
+          <h2 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
             Noralta
           </h2>
-          <p className="fontweight_1 text-blackk/60 text-center fontsize_3 pt-4">
+          <p className="font-600 text-blackk/60 text-center fontsize_3 pt-4">
             Noralta Technologies provides automation, instrumentation and
             electrical services to the energy industry.
           </p>
@@ -112,7 +112,7 @@ function ScadaNoralta() {
       </div>
       <div className="max-w-7xl mx-auto px-4">
         <div className="pt-20 pb-6">
-          <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+          <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
             Unlocking Success
           </h1>
         </div>
@@ -124,10 +124,10 @@ function ScadaNoralta() {
               </div>
               <div>
                 <div className="flex flex-col p-2 text-start justify-end">
-                  <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl">
+                  <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl">
                     IDEATION:
                   </h1>
-                  <p className="z-20 fontweight_1 text-blackk/60 fontsize_3">
+                  <p className="z-20 font-600 text-blackk/60 fontsize_3">
                     We envisioned a comprehensive GIS-based system that would
                     integrate real-time construction data, operational
                     information, and financial data for efficient management of
@@ -146,10 +146,10 @@ function ScadaNoralta() {
               </div>
               <div>
                 <div className="flex flex-col p-2 text-start justify-end ">
-                  <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl">
+                  <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl">
                     OUR APPROACH
                   </h1>
-                  <p className="z-20 fontweight_1 text-blackk/60 fontsize_3">
+                  <p className="z-20 font-600 text-blackk/60 fontsize_3">
                     We prioritized the development of a Web GIS interface that
                     could handle real-time construction data updates. By
                     integrating multiple data sources, including customer
@@ -171,10 +171,10 @@ function ScadaNoralta() {
               </div>
               <div>
                 <div className="flex flex-col p-2 text-start">
-                  <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl">
+                  <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl">
                     OUTCOMES
                   </h1>
-                  <p className="z-20 fontweight_1 text-blackk/60 fontsize_3">
+                  <p className="z-20 font-600 text-blackk/60 fontsize_3">
                     The GIS-based system for the Faridabad City Gas Distribution
                     project has revolutionized project execution and monitoring.
                     Its ability to provide real-time construction updates,
@@ -192,50 +192,50 @@ function ScadaNoralta() {
         </div>
       </div>
       <div className="w-full pb-20 px-4">
-        <h2 className="text-blackk max-w-3xl pb-2 fontweight_1 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] pt-12">
+        <h2 className="text-blackk max-w-3xl pb-2 font-600 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] pt-12">
           Project Outcomes
         </h2>
         <div className="max-w-3xl mx-auto flex flex-col py-4 gap-4">
           <div className="flex gap-4 rounded-xl border-2 border-blue-900/60 p-4 shadow-md shadow-blue-900/20">
-            <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+            <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
               01
             </h1>
-            <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+            <p className="font-600 text-blackk/60 fontsize_3 py-2">
               Successfully developed a Web GIS-based Real-time Pipe Book system
             </p>
           </div>
           <div className="flex gap-4 rounded-xl border-2 border-blue-900/60 p-4 shadow-md shadow-blue-900/20">
-            <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+            <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
               02
             </h1>
-            <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+            <p className="font-600 text-blackk/60 fontsize_3 py-2">
               Integrated real-time construction data with GIS for improved
               project monitoring
             </p>
           </div>
           <div className="flex gap-4 rounded-xl border-2 border-blue-900/60 p-4 shadow-md shadow-blue-900/20">
-            <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+            <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
               03
             </h1>
-            <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+            <p className="font-600 text-blackk/60 fontsize_3 py-2">
               Created a final pipe book in APDM format for comprehensive
               documentation
             </p>
           </div>
           <div className="flex gap-4 rounded-xl border-2 border-blue-900/60 p-4 shadow-md shadow-blue-900/20">
-            <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+            <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
               04
             </h1>
-            <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+            <p className="font-600 text-blackk/60 fontsize_3 py-2">
               Achieved integration of customer data, operational data (Honeywell
               SCADA), and SAP on GIS for charge area management
             </p>
           </div>
           <div className="flex gap-4 rounded-xl border-2 border-blue-900/60 p-4 shadow-md shadow-blue-900/20">
-            <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+            <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
               05
             </h1>
-            <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+            <p className="font-600 text-blackk/60 fontsize_3 py-2">
               Developed a potential product for city gas distribution projects,
               applicable in other regions
             </p>
@@ -243,10 +243,10 @@ function ScadaNoralta() {
         </div>
       </div>
       <div className="py-12 bg-zinc-50">
-        <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+        <h1 className="text-bloo font-600 text-center fontsize_2  py-2">
           More Like This
         </h1>
-        <h2 className="text-blackk max-w-3xl pb-2 text-center fontweight_1 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px]">
+        <h2 className="text-blackk max-w-3xl pb-2 text-center font-600 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px]">
           Take a look at other Case Studies
         </h2>
         <div className="max-w-7xl mx-auto" style={{display : "flex" , flexWrap : "wrap" , justifyContent : "space-evenly" }} >
@@ -261,10 +261,10 @@ function ScadaNoralta() {
                   className="  transition duration-300 filter grayscale hover:grayscale-0"
                 />
                 <div className="p-3 md:p-4">
-                  <h3 className="fontweight_1 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
+                  <h3 className="font-600 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
                     PetroSIM
                   </h3>
-                  <p className=" text-blackk/60 fontsize_3 fontweight_1 text-left">
+                  <p className=" text-blackk/60 fontsize_3 font-600 text-left">
                     Product Quality Assurance for Refinery Simulation Tool
                   </p>
                 </div>
@@ -282,10 +282,10 @@ function ScadaNoralta() {
                   className=" transition duration-300 filter grayscale hover:grayscale-0"
                 />
                 <div className="p-3 md:p-4">
-                  <h3 className="fontweight_1 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
+                  <h3 className="font-600 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
                     RE.LI Monitor
                   </h3>
-                  <p className=" text-blackk/60 fontsize_3 fontweight_1 text-left">
+                  <p className=" text-blackk/60 fontsize_3 font-600 text-left">
                     Developed a Real Time Sensor monitoring tool using SCADA
                   </p>
                 </div>
@@ -303,10 +303,10 @@ function ScadaNoralta() {
                   className=" transition duration-300 filter grayscale hover:grayscale-0"
                 />
                 <div className="p-3 md:p-4">
-                  <h3 className="fontweight_1 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
+                  <h3 className="font-600 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
                     ESPCT Quote
                   </h3>
-                  <p className=" text-blackk/60 fontsize_3 fontweight_1 text-left">
+                  <p className=" text-blackk/60 fontsize_3 font-600 text-left">
                     Web Based Sales and Quotation Tool
                   </p>
                 </div>

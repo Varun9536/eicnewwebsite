@@ -28,7 +28,7 @@ function Offeritem({ svg, title, link, fliptext }) {
             </div>
           </div>
           <div className="col-span-4 ml-4">
-            <h3 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl">
+            <h3 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl">
               {title}
             </h3>
             <h1 className="font-medium text-blackk/60 sm:text-xl text-lg ">

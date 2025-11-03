@@ -330,7 +330,7 @@ function Footer() {
 
                 {/* <Link
               to="/POS"
-              className="text-blackk/60  fontweight_1   hover:text-blackk  hover:underline py-1 px-3"
+              className="text-blackk/60  font-600   hover:text-blackk  hover:underline py-1 px-3"
             >
               POS
             </Link> */}

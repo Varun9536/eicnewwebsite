@@ -9,10 +9,10 @@ function Clientele() {
       </div>
 
       <div className="relative max-w-5xl mx-auto">
-        <h2 className="text-bloo text-center fontsize_2 fontweight_1 mb-2 sm:mb-3">
+        <h2 className="text-bloo text-center fontsize_2 font-600 mb-2 sm:mb-3">
           Journey so far
         </h2>
-        <h1 className="text-center fontsize_6 fontweight_1 mb-8 sm:mb-12 lg:mb-16">
+        <h1 className="text-center fontsize_6 font-600 mb-8 sm:mb-12 lg:mb-16">
           Milestones and Achievements
         </h1>
 
@@ -36,7 +36,7 @@ function Clientele() {
 function Milestone({ number, text, smallText }) {
   return (
     <div className="text-center">
-      <div className="text-bloo fontweight_1 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl mb-2">
+      <div className="text-bloo font-600 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl mb-2">
         {number}
       </div>
       <div className="font-semibold text-base sm:text-lg lg:text-xl mb-1">

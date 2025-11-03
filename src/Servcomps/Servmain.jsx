@@ -81,10 +81,10 @@ function Servmain() {
     <div className="">
       <div className=" relative font-manrope mx-auto px-1 sm:max-w-7xl w-screen pb-8">
         <div className="2xl:pt-12 pt-36"></div>
-        <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+        <h1 className="text-bloo font-600 text-center fontsize_2  py-2">
           Our Services
         </h1>
-        <h2 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
+        <h2 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
           Explore What We Offer
         </h2>
         <div className="w-full rounded-xl scale-[.65] max-w-screen-2xl mx-auto ">
@@ -104,7 +104,7 @@ function Servmain() {
         <div className="bg-zinc-50">
           <div className="py-12 relative font-manrope mx-auto px-1 sm:max-w-7xl w-screen">
             <div>
-              <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+              <h1 className="text-bloo font-600 text-center fontsize_2  py-2">
                 Our Flagship Services
               </h1>
               <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto px-1 sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-center">
@@ -126,7 +126,7 @@ function Servmain() {
                     </div>
                     <div>
                       <div className="flex flex-col p-2 text-start justify-end">
-                        <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl">
+                        <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl">
                           DIGITAL TRANSFORMATION
                         </h1>
                         <p className="z-20 font-medium text-blackk/60 sm:text-xl text-lg">
@@ -149,7 +149,7 @@ function Servmain() {
                     </div>
                     <div>
                       <div className="flex flex-col p-2 text-start justify-end ">
-                        <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl">
+                        <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl">
                           DEVOPS
                         </h1>
                         <p className="z-20 font-medium text-blackk/60 sm:text-xl text-lg">
@@ -175,7 +175,7 @@ function Servmain() {
                     </div>
                     <div>
                       <div className="flex flex-col p-2 text-start">
-                        <h1 className="text-blackk fontweight_1 text-xl pt-1 pb-3 sm:text-2xl">
+                        <h1 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl">
                           GENERATIVE AI
                         </h1>
                         <p className="z-20 font-medium text-blackk/60 sm:text-xl text-lg">
@@ -199,7 +199,7 @@ function Servmain() {
         <div id="emergingTechnologies" className="py-4"></div>
         <div className=" relative font-manrope mx-auto px-1 sm:max-w-7xl w-screen">
           <div>
-            <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+            <h1 className="text-bloo font-600 text-center fontsize_2  py-2">
               Emerging Technologies
             </h1>
             <h2 className="text-blackk/60 font-semibold px-1 max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-center">
@@ -207,7 +207,7 @@ function Servmain() {
               technologies. We help businesses leverage the latest innovations
               to create new opportunities and drive unprecedented growth.
             </h2>
-            <h2 className="text-blackk fontweight_1 sm:text-4xl text-2xl sm:leading-tight leading-snug text-center"></h2>
+            <h2 className="text-blackk font-600 sm:text-4xl text-2xl sm:leading-tight leading-snug text-center"></h2>
           </div>
           <div>
             <div className="grid xl:grid-cols-3 lg:grid-cols-3 grid-cols-1 gap-4 pt-8">
@@ -219,7 +219,7 @@ function Servmain() {
                   <LuBrainCircuit size={60} className="text-bloo" />
                 </div>
                 <div className="pt-4 h-full text-left">
-                  <h1 className="text-blackk fontweight_1 text-xl  pb-3 sm:text-2xl px-4">
+                  <h1 className="text-blackk font-600 text-xl  pb-3 sm:text-2xl px-4">
                     AI & ML
                   </h1>
                   <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-4">
@@ -237,7 +237,7 @@ function Servmain() {
                   <GiCircuitry size={60} className="text-bloo" />
                 </div>
                 <div className="pt-4 h-full ">
-                  <h1 className="text-blackk fontweight_1 text-xl  pb-3 sm:text-2xl px-4">
+                  <h1 className="text-blackk font-600 text-xl  pb-3 sm:text-2xl px-4">
                     INTERNET OF THINGS
                   </h1>
                   <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-4">
@@ -255,7 +255,7 @@ function Servmain() {
                   <SiBlockchaindotcom size={60} className="text-bloo" />
                 </div>
                 <div className="pt-4 h-full text-left">
-                  <h1 className="text-blackk fontweight_1 text-xl  pb-3 sm:text-2xl px-4">
+                  <h1 className="text-blackk font-600 text-xl  pb-3 sm:text-2xl px-4">
                     BLOCKCHAIN DEVELOPMENT
                   </h1>
                   <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-4">
@@ -273,7 +273,7 @@ function Servmain() {
       <div className="bg-zinc-50" id="appDevelopment">
         <div className="py-8 relative font-manrope mx-auto px-1 sm:max-w-7xl w-screen">
           <div>
-            <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+            <h1 className="text-bloo font-600 text-center fontsize_2  py-2">
               App Development Services
             </h1>
             <h2 className="text-blackk/60 font-semibold max-w-5xl mx-auto sm:text-2xl py-4 text-2xl sm:leading-tight leading-snug text-center">
@@ -282,7 +282,7 @@ function Servmain() {
               expert developers use the latest technologies to create powerful,
               user-friendly applications.
             </h2>
-            <h2 className="text-blackk fontweight_1 sm:text-4xl text-2xl sm:leading-tight leading-snug text-center"></h2>
+            <h2 className="text-blackk font-600 sm:text-4xl text-2xl sm:leading-tight leading-snug text-center"></h2>
           </div>
           <div className="">
             <div className="px-4 grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 pt-16">
@@ -297,7 +297,7 @@ function Servmain() {
                   />
                 </div>
                 <div className="pt-2 h-full text-left">
-                  <h1 className="text-blackk fontweight_1 text-xl  pb-3 sm:text-2xl px-1">
+                  <h1 className="text-blackk font-600 text-xl  pb-3 sm:text-2xl px-1">
                     SAAS DEVELOPMENT
                   </h1>
                   <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-1">
@@ -315,7 +315,7 @@ function Servmain() {
                   <FaLaptopCode size={60} className=" text-bloo" />
                 </div>
                 <div className="pt-2 h-full text-left ">
-                  <h1 className="text-blackk fontweight_1 text-xl mb-3   sm:text-2xl px-1">
+                  <h1 className="text-blackk font-600 text-xl mb-3   sm:text-2xl px-1">
                     WEB APP DEVELOPMENT
                   </h1>
                   <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left px-1">
@@ -333,7 +333,7 @@ function Servmain() {
                   <IoIosChatboxes size={60} className="text-bloo" />
                 </div>
                 <div className="pt-2 h-full text-left">
-                  <h1 className="text-blackk fontweight_1 text-xl mb-3  sm:text-2xl ">
+                  <h1 className="text-blackk font-600 text-xl mb-3  sm:text-2xl ">
                     CHAT BOT DEVELOPMENT
                   </h1>
                   <p className="font-medium text-blackk/60 sm:text-xl text-lg text-left ">
@@ -349,7 +349,7 @@ function Servmain() {
       </div>
       <div className="pt-8 pb-8">
         <div>
-          <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+          <h1 className="text-bloo font-600 text-center fontsize_2  py-2">
             Consultancy Service
           </h1>
         </div>
@@ -381,7 +381,7 @@ function Servmain() {
                   className="text-white hidden lg:block pr-2"
                 />
                 <div>
-                  <h1 className="py-2 text-3xl fontweight_1">App Consulting</h1>
+                  <h1 className="py-2 text-3xl font-600">App Consulting</h1>
                   <p className="text-wrap h-32 text-base font-medium lg:text-lg">
                     EICE provides expert guidance on app strategy, development,
                     and optimization. Our consultants help you make informed
@@ -409,7 +409,7 @@ function Servmain() {
                 className="text-white hidden lg:block pr-2"
               />
               <div>
-                <h1 className="py-2 text-3xl fontweight_1">UI/UX Consulting</h1>
+                <h1 className="py-2 text-3xl font-600">UI/UX Consulting</h1>
                 <p className="text-wrap h-32 text-base font-medium lg:text-lg">
                   EICE offers specialized UI/UX consulting services to enhance
                   your digital products. Our experts provide insights on user
@@ -439,7 +439,7 @@ function Servmain() {
                   className="text-white hidden lg:block pr-2"
                 />
                 <div>
-                  <h1 className="py-2 text-3xl fontweight_1">App Consulting</h1>
+                  <h1 className="py-2 text-3xl font-600">App Consulting</h1>
                   <p className="text-wrap  text-base font-medium lg:text-lg">
                     EICE provides expert guidance on app strategy, development,
                     and optimization. Our consultants help you make informed
@@ -466,7 +466,7 @@ function Servmain() {
                   className="text-white hidden lg:block pr-2"
                 />
                 <div>
-                  <h1 className="py-2 text-3xl fontweight_1">UI/UX Consulting</h1>
+                  <h1 className="py-2 text-3xl font-600">UI/UX Consulting</h1>
                   <p className="text-wrap  text-base font-medium lg:text-lg">
                     EICE offers specialized UI/UX consulting services to enhance
                     your digital products. Our experts provide insights on user

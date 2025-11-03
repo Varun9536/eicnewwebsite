@@ -30,10 +30,6 @@
 }
 
 
-.font-50px{
-    font-size: 50px;
-
-}
 
 .responsiveFont1 {
     font-size: 30px;
@@ -81,9 +77,9 @@
 
 
 
-.fontweight_1 {
+/* .font-600 {
     font-weight: 600;
-}
+} */
 
 .fontweight_2 {
     font-weight: bold;
@@ -96,4 +92,27 @@
 
 .blueTextGlobalClass {
     color: rgba(1, 176, 241, 1);
+}
+
+
+.font-20px
+{
+    font-size: 20px;
+}
+
+.font-31px
+{
+    font-size: 31px;
+}
+
+
+.font-50px{
+    font-size: 50px;
+
+}
+
+
+.font-600
+{
+    font-weight: 600;
 }

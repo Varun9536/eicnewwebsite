@@ -195,15 +195,15 @@ function Techs() {
   const [activeCategory, setActiveCategory] = useState(categories[0].id);
 
   return (
-    <div className="">
+    <div  className="">
       <div className="bg-bgplate bg-cover "></div>
       <div className="bg-zinc-50">
         <div className="  mx-auto  font-manrope">
           <header className="text-center mb-10">
-            <h1 className="text-bloo fontsize_2 fontweight_1  py-2">
+            <h1 className="text-bloo fontsize_2 font-600  py-2">
               Technologies we work with
             </h1>
-            <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] max-w-4xl py-1">
+            <h1 className="text-blackk  font-600 text-center text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] max-w-4xl py-1">
               Explore our extensive range of cutting-edge tools and platforms
             </h1>
           </header>

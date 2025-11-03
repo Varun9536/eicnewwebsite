@@ -1,6 +1,7 @@
 
 import proces from "../assets/new2025/home/devProcess/process.png"
 import styled from 'styled-components'
+import HeadingwithSunheading from "../UtilityComponents/HeadingAndSubheading/HeadingwithSunheading";
 
 export default function DevelopmentProcess() {
 
@@ -11,18 +12,21 @@ export default function DevelopmentProcess() {
         { title: "Design", detail: "System Design, UI/UX Design, Wireframing" },
         { title: "Development", detail: "Coding APIs, Debugging, Testing" },
         { title: "Delivery", detail: "Maintenance & Support" },
-       
+
     ];
 
     const ProcessConatiner = styled.div`
     
     display : flex;
     flex-direction : column;
+    margin-top : 2rem;
+
     `
 
     const ImggBox = styled.div`
 
-    width : 100% ;
+    width : 76% ;
+    margin : 0px auto;
 
     img
     {
@@ -31,47 +35,59 @@ export default function DevelopmentProcess() {
     ` ;
 
     const TextBox = styled.div`
+
+    width : 80% ;
+    margin : 0px auto;
+    margin-top : 1rem;
         
     
     display : grid;
     grid-template-columns : repeat(5 , 1fr) ;
-    grid-template-rows : repeat(2 , 1fr) ;
+    grid-template-rows : repeat(2 , 0.8fr) ;
     justify-items :center ;
 
-    gap : 0.5rem 0rem ;
-
-    
-
     `;
+
+
+    const Container = styled.div`
+
+margin : 3rem 0px;
+`;
 
 
 
 
     return (
 
-        <ProcessConatiner>
+        <>
 
-            <ImggBox>
-                <img src={proces} alt="" />
-            </ImggBox>
-            <TextBox>
+            <Container>
+                <HeadingwithSunheading heading={" Process we follow"} subheading={" We Simplify Software Development Process"} />
+                <ProcessConatiner>
 
-                {steps.map((item, index) =>
-                (
-                    <div key={index}>{item.title}</div>
-                ))}
+                    <ImggBox>
+                        <img src={proces} alt="" />
+                    </ImggBox>
 
-                {steps.map((item, index) =>
-                (
-                    <div key={index}>{item.detail}</div>
-                ))}
+                    <TextBox>
+
+                        {steps.map((item, index) =>
+                        (
+                            <div className="font-20px font-600" key={index}>{item.title}</div>
+                        ))}
+
+                        {steps.map((item, index) =>
+                        (
+                            <div className="px-8 text-center " key={index}>{item.detail}</div>
+                        ))}
+
+                    </TextBox>
+                </ProcessConatiner>
+            </Container>
+
+        </>
 
 
-
-            </TextBox>
-
-
-        </ProcessConatiner>
 
 
     )

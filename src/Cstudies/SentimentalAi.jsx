@@ -28,13 +28,13 @@ function SentimentalAi() {
         <div className="">
             <div className="max-w-7xl  mx-auto px-4 2xl:pt-12 pt-32">
                 <div className="w-full">
-                    <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+                    <h1 className="text-bloo font-600 text-center fontsize_2  py-2">
                         Development of AI-Based Sentiment Analysis System
                     </h1>
-                    <h2 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-5xl py-1">
+                    <h2 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-5xl py-1">
                         Enhancing Product Insights with AI: Advanced Sentiment Analysis of Product Reviews
                     </h2>
-                    <p className="fontweight_1 max-w-4xl mx-auto  text-blackk/60 fontsize_3 pt-4 px-4">
+                    <p className="font-600 max-w-4xl mx-auto  text-blackk/60 fontsize_3 pt-4 px-4">
                         For our client in the e-commerce sector, we developed an AI-based sentiment analysis system to process and interpret product reviews. By integrating natural language processing (NLP), machine learning algorithms, and sentiment classification techniques, we created a solution that accurately gauges customer sentiment and provides actionable insights into product performance.
                     </p>
                     <div className="w-full h-full max-w-7xl mx-auto items-center justify-center pt-12 pb-4 flex flex-row flex-wrap gap-16">
@@ -54,48 +54,48 @@ function SentimentalAi() {
                     </div>
                 </div>
                 <div className="w-full pb-6 text-left">
-                    <h2 className="text-blackk max-w-3xl pb-2 fontweight_1 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] pt-12">
+                    <h2 className="text-blackk max-w-3xl pb-2 font-600 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] pt-12">
                         Key Challenges
                     </h2>
                     <div className="max-w-3xl  mx-auto flex flex-col py-4 gap-4">
                         <div className="flex gap-4 ">
-                            <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+                            <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                                 01
                             </h1>
-                            <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+                            <p className="font-600 text-blackk/60 fontsize_3 py-2">
                                 {" "}
                                 Ensured accurate sentiment analysis across a wide range of review styles, languages, and sentiments.
                             </p>
                         </div>
                         <div className="flex gap-4">
-                            <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+                            <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                                 02
                             </h1>
-                            <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+                            <p className="font-600 text-blackk/60 fontsize_3 py-2">
                                 Developed algorithms to understand and interpret contextual nuances and sarcasm in reviews.
                             </p>
                         </div>
                         <div className="flex gap-4">
-                            <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+                            <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                                 03
                             </h1>
-                            <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+                            <p className="font-600 text-blackk/60 fontsize_3 py-2">
                                 Implemented real-time processing to provide up-to-date sentiment insights as new reviews are posted.
                             </p>
                         </div>
                         <div className="flex gap-4">
-                            <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+                            <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                                 04
                             </h1>
-                            <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+                            <p className="font-600 text-blackk/60 fontsize_3 py-2">
                                 Built a system that can handle large volumes of reviews and scale with the client's growing data needs.
                             </p>
                         </div>
                         <div className="flex gap-4">
-                            <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+                            <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                                 05
                             </h1>
-                            <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+                            <p className="font-600 text-blackk/60 fontsize_3 py-2">
                                 Ensured the secure handling of review data while maintaining compliance with privacy regulations.
                             </p>
                         </div>
@@ -104,11 +104,11 @@ function SentimentalAi() {
             </div>
             <div className="bg-zinc-50 py-12 mt-12">
                 <div className="max-w-7xl mx-auto px-4">
-                    <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+                    <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                         About Our Client
                     </h1>
-                    <h2 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1"></h2>
-                    <p className="fontweight_1 text-blackk/60 fontsize_3 pt-4">
+                    <h2 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1"></h2>
+                    <p className="font-600 text-blackk/60 fontsize_3 pt-4">
                         Our client is a leading IT consulting company operating
                         internationally, renowned for delivering innovative technology
                         solutions. They specialize in digital transformation, cloud
@@ -121,7 +121,7 @@ function SentimentalAi() {
             </div>
             <div className="max-w-7xl mx-auto px-4">
                 <div className="pt-8 pb-6">
-                    <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+                    <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                         Unlocking Success
                     </h1>
                 </div>
@@ -136,10 +136,10 @@ function SentimentalAi() {
                             </div>
                             <div>
                                 <div className="flex flex-col  text-start justify-end">
-                                    <h1 className="text-blackk fontweight_1 text-xl  pb-3 sm:text-2xl">
+                                    <h1 className="text-blackk font-600 text-xl  pb-3 sm:text-2xl">
                                         IDEATION
                                     </h1>
-                                    <p className="z-20 fontweight_1 text-blackk/60 fontsize_3">
+                                    <p className="z-20 font-600 text-blackk/60 fontsize_3">
                                         Our client aimed to leverage AI to gain deeper insights into customer feedback and improve product offerings. Recognizing the value of sentiment analysis, we envisioned a solution that could automatically analyze and categorize product reviews based on sentiment, providing valuable feedback for product development and customer satisfaction. We created an AI-based system that uses NLP and machine learning to evaluate sentiments expressed in reviews, enabling our client to AUTOMATE, OPTIMIZE & GROW their understanding of customer perceptions and product performance.
                                     </p>
                                 </div>
@@ -160,10 +160,10 @@ function SentimentalAi() {
                             </div>
                             <div>
                                 <div className="flex flex-col  text-start justify-end ">
-                                    <h1 className="text-blackk fontweight_1 text-xl  pb-3 sm:text-2xl">
+                                    <h1 className="text-blackk font-600 text-xl  pb-3 sm:text-2xl">
                                         OUR APPROACH
                                     </h1>
-                                    <p className="z-20 fontweight_1 text-blackk/60 fontsize_3">
+                                    <p className="z-20 font-600 text-blackk/60 fontsize_3">
                                         We adopted a multi-phase approach, starting with the research and development of an AI framework tailored to the client’s needs. The system uses NLP for parsing and understanding review text, machine learning for sentiment classification, and real-time analytics for timely insights. We emphasized customization, scalability, and seamless integration with the client’s existing review management systems. Our core mission was to AUTOMATE, OPTIMIZE & GROW their ability to derive actionable insights from customer feedback.
                                     </p>
                                 </div>
@@ -179,10 +179,10 @@ function SentimentalAi() {
                             </div>
                             <div>
                                 <div className="flex flex-col  text-start">
-                                    <h1 className="text-blackk fontweight_1 text-xl  pb-3 sm:text-2xl">
+                                    <h1 className="text-blackk font-600 text-xl  pb-3 sm:text-2xl">
                                         OUTCOMES
                                     </h1>
-                                    <p className="z-20 fontweight_1 text-blackk/60 fontsize_3">
+                                    <p className="z-20 font-600 text-blackk/60 fontsize_3">
                                         The AI-based sentiment analysis system significantly improved the client’s ability to understand and act on customer feedback. The client saw enhanced product insights due to accurate sentiment categorization and real-time analysis. The scalable system managed large volumes of reviews efficiently, providing valuable feedback without manual effort. Its integration capabilities ensured smooth incorporation into existing workflows, and advanced analytics delivered actionable insights for product improvement and strategic decision-making.
                                     </p>
                                 </div>
@@ -192,57 +192,57 @@ function SentimentalAi() {
                 </div>
             </div>
             <div className="w-full pb-20 px-4">
-                <h2 className="text-blackk max-w-3xl pb-2 fontweight_1 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] pt-12">
+                <h2 className="text-blackk max-w-3xl pb-2 font-600 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] pt-12">
                     Project Outcomes
                 </h2>
                 <div className="max-w-3xl mx-auto flex flex-col py-4 gap-4">
                     <div className="flex gap-4 rounded-xl border-2 border-blue-900/60 p-4 shadow-md shadow-blue-900/20">
-                        <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+                        <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                             01
                         </h1>
-                        <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+                        <p className="font-600 text-blackk/60 fontsize_3 py-2">
                             Improved Customer Insights: The AI system’s precise sentiment analysis provided a deeper understanding of customer opinions and feedback, leading to more informed product decisions.
                         </p>
                     </div>
                     <div className="flex gap-4 rounded-xl border-2 border-blue-900/60 p-4 shadow-md shadow-blue-900/20">
-                        <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+                        <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                             02
                         </h1>
-                        <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+                        <p className="font-600 text-blackk/60 fontsize_3 py-2">
                             Enhanced Product Development: Automation of sentiment analysis allowed for rapid identification of product strengths and areas for improvement, driving innovation and quality enhancement.
                         </p>
                     </div>
                     <div className="flex gap-4 rounded-xl border-2 border-blue-900/60 p-4 shadow-md shadow-blue-900/20">
-                        <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+                        <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                             03
                         </h1>
-                        <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+                        <p className="font-600 text-blackk/60 fontsize_3 py-2">
                             Efficient Review Management: The system’s ability to process large volumes of reviews in real time reduced manual analysis efforts and operational costs.
                         </p>
                     </div>
                     <div className="flex gap-4 rounded-xl border-2 border-blue-900/60 p-4 shadow-md shadow-blue-900/20">
-                        <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+                        <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                             04
                         </h1>
-                        <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+                        <p className="font-600 text-blackk/60 fontsize_3 py-2">
                             Dynamic Scalability: The solution adeptly handled growing volumes of reviews and scaled seamlessly with the client’s data needs, ensuring consistent performance.
                         </p>
                     </div>
                     <div className="flex gap-4 rounded-xl border-2 border-blue-900/60 p-4 shadow-md shadow-blue-900/20">
-                        <h1 className="text-bloo flex items-center justify-center h-full fontweight_1 text-center fontsize_2  py-2">
+                        <h1 className="text-bloo flex items-center justify-center h-full font-600 text-center fontsize_2  py-2">
                             05
                         </h1>
-                        <p className="fontweight_1 text-blackk/60 fontsize_3 py-2">
+                        <p className="font-600 text-blackk/60 fontsize_3 py-2">
                             Advanced Analytics and Insights: Comprehensive sentiment analysis and reporting delivered valuable business insights, supporting continuous improvement and strategic planning.
                         </p>
                     </div>
                 </div>
             </div>
             <div className="py-12 bg-zinc-50">
-                <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+                <h1 className="text-bloo font-600 text-center fontsize_2  py-2">
                     More Like This
                 </h1>
-                <h2 className="text-blackk max-w-3xl pb-2 text-center fontweight_1 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px]">
+                <h2 className="text-blackk max-w-3xl pb-2 text-center font-600 text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px]">
                     Take a look at other Case Studies
                 </h2>
                 <div className="max-w-7xl mx-auto" style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-evenly" }} >
@@ -257,10 +257,10 @@ function SentimentalAi() {
                                     className="  transition duration-300 filter grayscale hover:grayscale-0"
                                 />
                                 <div className="p-3 md:p-4">
-                                    <h3 className="fontweight_1 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
+                                    <h3 className="font-600 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
                                         PetroSIM
                                     </h3>
-                                    <p className=" text-blackk/60 fontsize_3 fontweight_1 text-left">
+                                    <p className=" text-blackk/60 fontsize_3 font-600 text-left">
                                         Product Quality Assurance for Refinery Simulation Tool
                                     </p>
                                 </div>
@@ -278,10 +278,10 @@ function SentimentalAi() {
                                     className=" transition duration-300 filter grayscale hover:grayscale-0"
                                 />
                                 <div className="p-3 md:p-4">
-                                    <h3 className="fontweight_1 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
+                                    <h3 className="font-600 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
                                         RE.LI Monitor
                                     </h3>
-                                    <p className=" text-blackk/60 fontsize_3 fontweight_1 text-left">
+                                    <p className=" text-blackk/60 fontsize_3 font-600 text-left">
                                         Developed a Real Time Sensor monitoring tool using SCADA
                                     </p>
                                 </div>
@@ -299,10 +299,10 @@ function SentimentalAi() {
                                     className=" transition duration-300 filter grayscale hover:grayscale-0"
                                 />
                                 <div className="p-3 md:p-4">
-                                    <h3 className="fontweight_1 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
+                                    <h3 className="font-600 text-sm sm:text-base md:text-lg mb-1 sm:mb-2">
                                         ESPCT Quote
                                     </h3>
-                                    <p className=" text-blackk/60 fontsize_3 fontweight_1 text-left">
+                                    <p className=" text-blackk/60 fontsize_3 font-600 text-left">
                                         Web Based Sales and Quotation Tool
                                     </p>
                                 </div>

@@ -29,10 +29,10 @@ function Casestudies() {
 
       { ! isMobile && (<div className=" font-manrope ">
 
-        <h2 className="text-bloo  text-center fontsize_2 fontweight_1  ">
+        <h2 className="text-bloo  text-center fontsize_2 font-600  ">
           Case Study
         </h2>
-        <h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
+        <h1 className="text-blackk  font-600 text-center text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
           Explore the journeys behind the successful products we deliver
         </h1>
 
@@ -118,10 +118,10 @@ function Casestudies() {
 
       { isMobile2 && (<div className=" font-manrope ">
 
-<h2 className="text-bloo  text-center fontsize_2 fontweight_1  ">
+<h2 className="text-bloo  text-center fontsize_2 font-600  ">
   Case Study
 </h2>
-<h1 className="text-blackk  fontweight_1 text-center text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
+<h1 className="text-blackk  font-600 text-center text-2xl sm:text-3xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
   Explore the journeys behind the successful products we deliver
 </h1>
 

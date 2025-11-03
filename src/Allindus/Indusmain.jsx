@@ -108,11 +108,11 @@ function Indusmain() {
     <div>
       <div className="font-manrope max-w-7xl mx-auto px-4  pt-32 sm:pt-32 2xl:pt-8">
         <section className="text-center">
-          <h1 className="text-blackk fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-7xl py-1">
+          <h1 className="text-blackk font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-7xl py-1">
             Driving <span className="text-bloo">Digital Transformation</span>{" "}
             Across Industries
           </h1>
-          <p className="text-blackk/60 font-semibold max-w-5xl mx-auto  py-8 fontweight_1 fontsize_2 sm:leading-tight leading-snug text-center">
+          <p className="text-blackk/60 font-semibold max-w-5xl mx-auto  py-8 font-600 fontsize_2 sm:leading-tight leading-snug text-center">
             EICE empowers businesses to thrive in the digital age by leveraging
             cutting-edge technologies and innovative strategies, revolutionizing
             operations and enhancing competitiveness.
@@ -124,10 +124,10 @@ function Indusmain() {
         </div>
 
         <section className="text-center py-8">
-          <h2 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+          <h2 className="text-bloo font-600 text-center fontsize_2  py-2">
             Industry Solutions
           </h2>
-          <h3 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-7xl py-1">
+          <h3 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-7xl py-1">
             Transforming Sectors Through Digital Innovation
           </h3>
         </section>

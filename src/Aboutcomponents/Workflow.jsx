@@ -7,10 +7,10 @@ function Workflow() {
       {/* <div className="w-screen h-1/4 bg-bloo/10 rotate-45 absolute top-0 z-1 left-[50%] blur-[300px]"></div> */}
       {/* <div className="w-full h-full bg-bloo/5 -rotate-45 absolute right-[75%] blur-[400px]"></div> */}
       <div className="flex flex-col items-center justify-center text-center">
-        <h1 className="text-bloo fontweight_1 text-center fontsize_2  py-2">
+        <h1 className="text-bloo font-600 text-center fontsize_2  py-2">
           Our Values
         </h1>
-        <h2 className="text-blackk  fontweight_1 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
+        <h2 className="text-blackk  font-600 text-center text-2xl sm:text-2xl mx-auto md:text-3xl lg:text-[32px] max-w-3xl py-1">
           Delivering Reliable and Quality Software Development Services
         </h2>
       </div>
@@ -25,7 +25,7 @@ function Workflow() {
         <div className="lg:flex lg:flex-row flex flex-col sm:pt-12 pt-12 items-center justify-center">
           <div className="lg:w-52 lg:h-52 w-11/12 h-52 border-2 border-bloo rounded-lg">
             <div className="flex flex-col text-center w-full h-full items-center justify-center">
-              <h1 className="fontweight_1 pb-4 text-bloo">Discover</h1>
+              <h1 className="font-600 pb-4 text-bloo">Discover</h1>
               <p className="font-medium text-blackk/60  text-lg ">
                 Assessing the Requirements
               </p>
@@ -39,7 +39,7 @@ function Workflow() {
           </div>
           <div className="lg:w-52 lg:h-52 w-11/12 h-52 border-2 border-amber-500 rounded-lg">
             <div className="flex flex-col text-center w-full h-full items-center justify-center">
-              <h1 className="fontweight_1 pb-4 text-amber-500">Define</h1>
+              <h1 className="font-600 pb-4 text-amber-500">Define</h1>
               <p className="font-medium text-blackk/60  text-lg ">
                 Determining the scope and creating an SRS
               </p>
@@ -53,7 +53,7 @@ function Workflow() {
           </div>
           <div className="lg:w-52 lg:h-52 w-11/12 h-52 border-2 border-emerald-400 rounded-lg">
             <div className="flex flex-col text-center w-full h-full items-center justify-center">
-              <h1 className="fontweight_1 pb-4 text-emerald-500">Design</h1>
+              <h1 className="font-600 pb-4 text-emerald-500">Design</h1>
               <p className="font-medium text-blackk/60  text-lg ">
                 System Design, UI/UX, Wireframing
               </p>
@@ -67,7 +67,7 @@ function Workflow() {
           </div>
           <div className="lg:w-52 lg:h-52 w-11/12 h-52 border-2 border-cyan-400 rounded-lg">
             <div className="flex flex-col text-center w-full h-full items-center justify-center">
-              <h1 className="fontweight_1 pb-4 text-cyan-500">
+              <h1 className="font-600 pb-4 text-cyan-500">
                 Product Development
               </h1>
               <p className="font-medium text-blackk/60  text-lg ">
@@ -83,7 +83,7 @@ function Workflow() {
           </div>
           <div className="lg:w-52 lg:h-52 w-11/12 h-52 border-2 border-rose-400 rounded-lg">
             <div className="flex flex-col text-center w-full h-full items-center justify-center">
-              <h1 className="fontweight_1 pb-4 text-rose-400">Delivery</h1>
+              <h1 className="font-600 pb-4 text-rose-400">Delivery</h1>
               <p className="font-medium text-blackk/60 text-lg ">
                 Maintenance and Support
               </p>

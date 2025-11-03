@@ -23,10 +23,10 @@ function Process() {
       <div className="bg-zinc-50">
         <div className="sm:max-w-7xl mx-auto w-screen">
           <div className="flex flex-col items-center justify-center pb-12 sm:pb-16 md:pb-20">
-            <p className="text-bloo fontweight_1 text-xl sm:text-2xl lg:text-3xl mb-4 py-1">
+            <p className="text-bloo font-600 text-xl sm:text-2xl lg:text-3xl mb-4 py-1">
               Agile Software Development
             </p>
-            <h2 className="text-blackk fontweight_1 text-center text-2xl  md:text-3xl lg:text-[32px] max-w-4xl ">
+            <h2 className="text-blackk font-600 text-center text-2xl  md:text-3xl lg:text-[32px] max-w-4xl ">
               Proven processes,  unparalleled expertise, and top notch tools
             </h2>
           </div>
@@ -40,7 +40,7 @@ function Process() {
                     Generative AI
                   </h2>
                   
-                  <h2 className="sm:text-xl text-lg mt-1 font-medium fontweight_1 text-blackk/70">
+                  <h2 className="sm:text-xl text-lg mt-1 font-medium font-600 text-blackk/70">
                     In the fast-paced world of generative AI, staying ahead is
                     crucial for business success. At EICE, we specialize in
                     advanced AI/ML and generative AI solutions designed to
@@ -116,8 +116,8 @@ export default Process;
 //         <div className="md:order-last justify-self-center bg-mobdevhome bg-cover w-[48vh] h-[38.8vh] scale-[1.1]"></div>
 //         <div>
 //             <div className="justify-center flex flex-col w-full h-full">
-//                 <h2 className="text-4xl fontweight_1 text-blackk">App Development</h2>
-//                 <h2 className="text-2xl fontweight_1 text-blackk/70">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum sed iure ex necessitatibus tenetur, porro at obcaecati veritatis officia quos illo voluptatibus consequuntur. Aliquid aspernatur eaque quam voluptate nam. Quo!</h2>
+//                 <h2 className="text-4xl font-600 text-blackk">App Development</h2>
+//                 <h2 className="text-2xl font-600 text-blackk/70">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum sed iure ex necessitatibus tenetur, porro at obcaecati veritatis officia quos illo voluptatibus consequuntur. Aliquid aspernatur eaque quam voluptate nam. Quo!</h2>
 //             </div>
 //         </div>
 //     </div>
