@@ -15,6 +15,9 @@ import bgspiral from "../assets/new2025/home/herosection/roundbg.svg"
 
 import styles from "./Styles/big.module.css"
 
+
+import { IoArrowForward } from "react-icons/io5";
+
 // function Big() {
 //   const slides = [
 //     {
@@ -228,7 +231,7 @@ function Big() {
         <div className=" mx-auto px-4 sm:px-12 lg:px-0 xl:px-12 2xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="flex flex-col space-y-4 ">
-              <h1 className="text-blackk fontsize_6 font-semibold lg:leading-[3.7rem]">
+              <h1 className="text-blackk font-50px font-semibold lg:leading-[3.7rem]">
                 Transforming the Future with{" "}
                 <span className="text-bloo">Artificial Intelligence</span>
                 {/* Transforming your Business through */}
@@ -242,15 +245,24 @@ function Big() {
               </p>
               <div className="flex flex-row sm:flex-row gap-4 ">
                 <Link to="/contact">
-                  <button aria-label="Let's Connect" className="w-full sm:w-auto py-3 px-6 font-semibold rounded transition duration-200 border-2 border-blue-900 bg-blue-900 text-white hover:bg-blue-800 text-sm sm:text-base">
-                    Let's Connect
-                  </button>
+
+                  <div className="w-full gap-x-2 flex-box m sm:w-auto py-3 px-14 font-semibold rounded transition duration-200 border-2 border-blue-900 bg-blue-900 text-white hover:bg-blue-800 text-sm sm:text-base">
+                    <div>
+                      Learn More
+                    </div>
+
+                    <div className={`${styles.arrowBox}`}>
+                       <IoArrowForward  />
+                    </div>
+
+                   
+                  </div>
                 </Link>
-                <Link to="/Services-Aiml">
+                {/* <Link to="/Services-Aiml">
                   <button aria-label="Learn More" className="w-full sm:w-auto py-3 px-6 font-semibold rounded transition duration-200 border-2 border-blue-900 text-blue-900 hover:bg-blue-100 text-sm sm:text-base">
                     Learn More
                   </button>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="flex lg:order-last order-first xl:justify-end justify-center mt-8 lg:mt-0">
@@ -271,29 +283,35 @@ function Big() {
         <div className=" mx-auto px-4 sm:px-12 lg:px-0 xl:px-12 2xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="flex flex-col space-y-4">
-              <h1 className="text-blackk fontsize_6 font-semibold lg:leading-[3.7rem]">
+              <h1 className="text-blackk font-50px font-semibold lg:leading-[3.7rem]">
                 {/* Improving your Efficiency with
                               <span className="text-bloo font-semibold block mt-2">DevOps</span> */}
-                Accelerate innovation with{" "}
+                Improving your Efficiency with {" "}
+
                 <span className="text-bloo">DevOps</span>
               </h1>
               <p className="font-medium text-blackk/60 sm:text-xl text-lg">
-                As a top DevOps development firm, we specialize in optimizing
-                your business's infrastructure and operations. Our customized
-                DevOps solutions empower business owners to lead, thrive, and
-                innovate in the digital age.
+                Streamline your software delivery process with our DevOps solutions. We help automate deployments, reduce Mean Time to Recovery (MTTR), improve system reliability, and enable faster, more efficient releases.
               </p>
               <div className="flex flex-row sm:flex-row gap-4">
                 <Link to="/contact">
-                  <button className="w-full sm:w-auto py-3 px-6 font-semibold rounded transition duration-200 border-2 border-blue-900 bg-blue-900 text-white hover:bg-blue-800 text-sm sm:text-base">
-                    Let's Connect
-                  </button>
+                  <div className="w-full gap-x-2 flex-box m sm:w-auto py-3 px-14 font-semibold rounded transition duration-200 border-2 border-blue-900 bg-blue-900 text-white hover:bg-blue-800 text-sm sm:text-base">
+                    <div>
+                      Learn More
+                    </div>
+
+                    <div className={`${styles.arrowBox}`}>
+                       <IoArrowForward  />
+                    </div>
+
+                   
+                  </div>
                 </Link>
-                <Link to="/Services-Devops">
+                {/* <Link to="/Services-Devops">
                   <button className="w-full sm:w-auto py-3 px-6 font-semibold rounded transition duration-200 border-2 border-blue-900 text-blue-900 hover:bg-blue-100 text-sm sm:text-base">
                     Learn More
                   </button>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="flex lg:order-last order-first xl:justify-end justify-center mt-8 lg:mt-0">
@@ -313,29 +331,32 @@ function Big() {
         <div className=" mx-auto px-4 sm:px-12 lg:px-0 xl:px-12 2xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="flex flex-col space-y-4">
-              <h1 className="text-blackk fontsize_6 font-semibold lg:leading-[3.7rem]">
+              <h1 className="text-blackk font-50px font-semibold lg:leading-[3.7rem]">
                 {/* Driving business Growth with
                             <span className="text-bloo font-semibold block mt-2 2xl:text-nowrap text-wrap">Digital Transformation</span> */}
-                Transform your Business with{" "}
-                <span className="text-bloo">Digital Solutions</span>
+                Driving Business Growth with{" "}
+                <span className="text-bloo">Digital Transformation</span>
               </h1>
               <p className="font-medium text-blackk/60 sm:text-xl text-lg">
-                As the digital landscape evolves, businesses need effective
-                strategies. We offer tailored digital transformation services,
-                using our expertise to drive innovation, enhance efficiency, and
-                improve processes and customer experiences.
+                Reimagine your business processes through technology. Our digital transformation services leverage cloud, AI, and data analytics to improve agility, enhance customer experiences, and drive sustainable growth.
               </p>
               <div className="flex flex-row sm:flex-row gap-4">
                 <Link to="/contact">
-                  <button className="w-full sm:w-auto py-3 px-6 font-semibold rounded transition duration-200 border-2 border-blue-900 bg-blue-900 text-white hover:bg-blue-800 text-sm sm:text-base">
-                    Let's Connect
-                  </button>
+                  <div className="w-full gap-x-2 flex-box m sm:w-auto py-3 px-14 font-semibold rounded transition duration-200 border-2 border-blue-900 bg-blue-900 text-white hover:bg-blue-800 text-sm sm:text-base">
+                    <div>
+                      Learn More
+                    </div>
+
+                    <div className={`${styles.arrowBox}`}>
+                       <IoArrowForward  />
+                    </div>
+                  </div>
                 </Link>
-                <Link to="/Services-Digitaltransformation">
+                {/* <Link to="/Services-Digitaltransformation">
                   <button className="w-full sm:w-auto py-3 px-6 font-semibold rounded transition duration-200 border-2 border-blue-900 text-blue-900 hover:bg-blue-100 text-sm sm:text-base">
                     Learn More
                   </button>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="flex lg:order-last order-first xl:justify-end justify-center mt-8 lg:mt-0">

@@ -131,6 +131,8 @@ import SentimentalAi from "./Cstudies/SentimentalAi.jsx";
 import LogisticsAi from "./Cstudies/LogisticsAi.jsx";
 import InventoryAi from "./Cstudies/InventoryAi.jsx";
 import Certificate from "./Homecomps/Certificate.jsx";
+import ClientSlider from "./Homecomps/ClientSlider.jsx";
+import DevelopmentProcess from "./Homecomps/DevelopmentProcess.jsx";
 
 
 
@@ -995,6 +997,8 @@ const Home = () => {
         {/* <Clients /> */}
       </div>
 
+        <ClientSlider/>
+
 
       {/* <Separator /> */}
       <div className="flex flex-col gap-0.5 items-center justify-center xl:pt-8 pt-4 w-screen px-2 mb-4 sm:mb-8 md:mb-12">
@@ -1025,11 +1029,15 @@ const Home = () => {
           </div>
         </h2> */}
       </div>
+
+      
       <div className="mx-auto px-2">
         <Offers />
       </div>
+      <DevelopmentProcess/>
       {/* <Separatorr /> */}
       <Techs />
+    
       <Solutions />
       {/* <Separatorrr /> */}
       <Casestudies />
