@@ -1,12 +1,10 @@
 
 import proces from "../assets/new2025/home/devProcess/process.png"
 import styled from 'styled-components'
-import HeadingwithSunheading from "../UtilityComponents/HeadingAndSubheading/HeadingwithSunheading";
-
-export default function DevelopmentProcess() {
+import HeadingwithSubheading from "../UtilityComponents/HeadingAndSubheading/HeadingwithSubheading";
 
 
-    const steps = [
+ const steps = [
         { title: "Discover", detail: "Assessing the requirements" },
         { title: "Define", detail: "Determine the scope and creating an SRS" },
         { title: "Design", detail: "System Design, UI/UX Design, Wireframing" },
@@ -39,8 +37,6 @@ export default function DevelopmentProcess() {
     width : 80% ;
     margin : 0px auto;
     margin-top : 1rem;
-        
-    
     display : grid;
     grid-template-columns : repeat(5 , 1fr) ;
     grid-template-rows : repeat(2 , 0.8fr) ;
@@ -48,21 +44,20 @@ export default function DevelopmentProcess() {
 
     `;
 
-
     const Container = styled.div`
 
 margin : 3rem 0px;
 `;
 
 
-
+export default function DevelopmentProcess() {
 
     return (
 
         <>
 
             <Container>
-                <HeadingwithSunheading heading={" Process we follow"} subheading={" We Simplify Software Development Process"} />
+                <HeadingwithSubheading heading={" Process we follow"} subheading={" We Simplify Software Development Process"} />
                 <ProcessConatiner>
 
                     <ImggBox>
@@ -90,5 +85,18 @@ margin : 3rem 0px;
 
 
 
+    )
+}
+
+
+
+
+export function caseStudyHome()
+{
+    return(
+
+        <>
+        
+        </>
     )
 }

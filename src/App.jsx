@@ -143,8 +143,8 @@ const App = () => {
 
 
   return (
-    <HashRouter>
-      {/* <BrowserRouter> */}
+    // <HashRouter>
+      <BrowserRouter>
 
       <NavLayout />
       <ScrollToTop />
@@ -219,8 +219,8 @@ const App = () => {
         />
 
       </Routes>
-      {/* </BrowserRouter> */}
-    </HashRouter>
+      </BrowserRouter>
+    {/* </HashRouter> */}
 
   );
 };
@@ -1036,7 +1036,13 @@ const Home = () => {
       </div>
       <DevelopmentProcess/>
       {/* <Separatorr /> */}
-      <Techs />
+
+
+
+      {/* <Techs /> */}
+
+
+
     
       <Solutions />
       {/* <Separatorrr /> */}
