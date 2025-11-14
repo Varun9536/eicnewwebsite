@@ -49,7 +49,7 @@ function Footer() {
   };
 
   return (
-    <div className="mt-12" style={{ background: "rgb(1 , 32 , 96)", }}>
+    <div className="" style={{ background: "rgb(1 , 32 , 96)", }}>
       <footer className=" text-manrope  py-12 px-2 lg:max-w-7xl w-screen mx-auto font-manrope">
         <div className=" mx-auto flex flex-row flex-wrap gap-1 w-full">
           {/* Company Info */}
@@ -58,12 +58,12 @@ function Footer() {
             {/* <div style={{ display: "flex", columnGap: "3rem" }}> */}
 
               {/* <div> */}
-                <Link to="/" className="inline-block mb-2 w-24 md:w-28 lg:w-40">
+                <Link to="/" className="inline-block mb-2 w-24 md:w-28 lg:w-28">
                   <img style={{ filter: "brightness(0) invert(1)" , width : "100%" }} src={logo} alt="EICE Logo"  />
                 </Link>
-                <div  className="inline-block mb-2 ml-4  lg:ml-12  w-40  lg:w-60">
+                {/* <div  className="inline-block mb-2 ml-4  lg:ml-12  w-40  lg:w-40">
                   <img style={{ filter: "brightness(0) invert(1)" , width : "100%" ,  }} src={cmi} alt="EICE Logo"  />
-                </div>
+                </div> */}
               {/* </div> */}
 
 

@@ -1,0 +1,29 @@
+/* === Swiper Pagination Long Pill Style === */
+
+.my-swiper .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.my-swiper .swiper-pagination-bullet {
+    width: 27px;
+    /* long cylindrical shape */
+    height: 7px;
+    border-radius: 9999px;
+    /* fully rounded edges */
+    background: transparent;
+    border: 2px solid #1f2937;
+    /* dark gray outline */
+    opacity: 1;
+    margin: 0 8px !important;
+    transition: all 0.3s ease;
+}
+
+.my-swiper .swiper-pagination-bullet-active {
+    background: #1f2937;
+    /* filled when active */
+    border-color: #1f2937;
+    /* width: 40px; */
+}

@@ -6,7 +6,7 @@ function Offeritem({ svg, title, link, fliptext }) {
     <Link to={link} className="sm:w-full w-screen block pb-2">
       <div className="lg:px-0 px-4 w-full ">
         <div
-          className={`p-5 lg:h-[300px] h-[350px] grid grid-cols-5 gap-8 bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-transparent hover:border-gray-200`}
+          className={`p-5 lg:h-[300px] h-[350px] flex gap-4  bg-white rounded-md overflow-hidden shadow-sm shadow-white transition-shadow duration-300 hover:shadow-lg hover:shadow-blackk/10 border border-transparent hover:border-gray-200`}
         >
           <div className="w-16 h-16 sm:w-20 sm:h-20 flex-shrink-0">
             {/* <div className="rounded-full bg-bloo/5 w-full h-full flex items-center justify-center">
@@ -19,15 +19,15 @@ function Offeritem({ svg, title, link, fliptext }) {
 
 
 {/* new changes */}
-             <div className="rounded-full  w-full h-full flex items-center justify-center">
+             <div className="rounded-full  w-[5rem] flex items-center justify-center">
               <img
                 src={svg}
                 alt="svg"
-                className="object-contain w-3/4 h-3/4 scale-[.85]"
+                className="object-contain w-full"
               />
             </div>
           </div>
-          <div className="col-span-4 ml-4">
+          <div className="col-span-4">
             <h3 className="text-blackk font-600 text-xl pt-1 pb-3 sm:text-2xl">
               {title}
             </h3>

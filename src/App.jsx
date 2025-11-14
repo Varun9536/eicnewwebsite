@@ -133,6 +133,10 @@ import InventoryAi from "./Cstudies/InventoryAi.jsx";
 import Certificate from "./Homecomps/Certificate.jsx";
 import ClientSlider from "./Homecomps/ClientSlider.jsx";
 import DevelopmentProcess from "./Homecomps/DevelopmentProcess.jsx";
+import IndustryCards from "./Homecomps/IndustryCards.jsx";
+import BlockInspect from "./UtilityComponents/blockInspect/BlockInspect.jsx";
+
+import alllaptop from "./assets/new2025/home/laptop/allLaptop.webp"
 
 
 
@@ -141,86 +145,88 @@ import DevelopmentProcess from "./Homecomps/DevelopmentProcess.jsx";
 
 const App = () => {
 
+  // BlockInspect("/")
+
 
   return (
-    
-      <BrowserRouter>
 
-        <NavLayout />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/OurTeam" element={<OurTeam />} />
-          <Route path="/Services" element={<Services />} />
-          <Route path="/Resources" element={<Resources />} />
-          <Route path="/Careers" element={<Careers />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Industries" element={<Allindus />}></Route>
+    <BrowserRouter>
 
-          {/* services endpoint */}
+      <NavLayout />
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/OurTeam" element={<OurTeam />} />
+        <Route path="/Services" element={<Services />} />
+        <Route path="/Resources" element={<Resources />} />
+        <Route path="/Careers" element={<Careers />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Industries" element={<Allindus />}></Route>
 
-
+        {/* services endpoint */}
 
 
 
 
-          <Route path="/Industries-Financial" element={<Financial />} />
-          <Route path="/Industries-Education" element={<Educational />} />
-          <Route path="/Industries-Digitalmedia" element={<Digitalmedia />} />
-          <Route path="/Industries-Healthcare" element={<Healthcare />} />
-          <Route path="/Industries-Logistics" element={<Logistics />} />
-          <Route path="/Industries-Enterprise" element={<Enterprise />} />
-          <Route path="/Industries-Legal" element={<Legal />} />
-          <Route path="/Industries-Oilandgas" element={<Oilandgas />} />
 
-          <Route path="Services-Digitaltransformation" element={<Digitrans />} />
-          <Route path="Services-Aiml" element={<Aiml />} />
-          <Route path="Services-Cloud" element={<Cloud />} />
-          <Route path="Services-Dataanalytics" element={<Dataanalytics />} />
-          <Route path="Services-Enterpriseappdev" element={<Entpappdev />} />
-          <Route path="Services-Gis" element={<Gis />} />
-          <Route path="Services-Devops" element={<Devops />} />
-          <Route path="Services-Iot" element={<Iot />} />
-          <Route path="Services-Techconsultancy" element={<Techconsult />} />
-          <Route path="Services-SAAS" element={<Saas />} />
-          <Route path="Services-Android" element={<Android />} />
-          <Route path="Services-Blockchain" element={<Blockchain />} />
-          <Route path="Services-Webdevelopment" element={<Webdeveopment />} />
-          <Route path="Services-Softwaretesting" element={<Softwaretesting />} />
-          <Route path="Services-Uiuxconsulting" element={<UiUx />} />
-          <Route path="Services-Chatbot" element={<Chatbot />} />
-          <Route path="Casestudies" element={<Cstudiescomp />} />
-          <Route path="Casestudy-Relimonitor" element={<Relimonitor />} />
-          <Route path="Casestudy-PetroSIM" element={<PetroSIM />} />
-          <Route path="Casestudy-EspctQuote" element={<EspctQuote />} />
-          <Route path="Casestudy-CityGasAdani" element={<CityGasAdani />} />
-          <Route path="Casestudy-SimuLIFT" element={<SimuLift />} />
-          <Route path="Casestudy-NoraltaSCADA" element={<ScadaNoralta />} />
-          <Route path="Casestudy-EPGIS" element={<DataManagement />} />
-          <Route path="Casestudy-NoraltaFEMMS" element={<NoraltaMath />} />
-          <Route path="Casestudy-SchlumbergerBAA" element={<Peep />} />
-          <Route path="Casestudy-VoiceCallAI" element={<VoiceCallAI />} />
-          <Route path="Casestudy-SentimentalAI" element={<SentimentalAi />} />
-          <Route path="Casestudy-LogisticsAI" element={<LogisticsAi />} />
-          <Route path="Casestudy-InventoryAI" element={<InventoryAi />} />
-          <Route
-            path="Casestudy-DesignSimBORETS"
-            element={<Boretsdesignsimtool />}
-          />
 
-          <Route
-            path="*"
-            element={
-              <div className="font-manrope font-base text-3xl">
-                <p>{`There's nothing here: 404`}</p>
-              </div>
-            }
-          />
+        <Route path="/Industries-Financial" element={<Financial />} />
+        <Route path="/Industries-Education" element={<Educational />} />
+        <Route path="/Industries-Digitalmedia" element={<Digitalmedia />} />
+        <Route path="/Industries-Healthcare" element={<Healthcare />} />
+        <Route path="/Industries-Logistics" element={<Logistics />} />
+        <Route path="/Industries-Enterprise" element={<Enterprise />} />
+        <Route path="/Industries-Legal" element={<Legal />} />
+        <Route path="/Industries-Oilandgas" element={<Oilandgas />} />
 
-        </Routes>
-      </BrowserRouter>
-    
+        <Route path="Services-Digitaltransformation" element={<Digitrans />} />
+        <Route path="Services-Aiml" element={<Aiml />} />
+        <Route path="Services-Cloud" element={<Cloud />} />
+        <Route path="Services-Dataanalytics" element={<Dataanalytics />} />
+        <Route path="Services-Enterpriseappdev" element={<Entpappdev />} />
+        <Route path="Services-Gis" element={<Gis />} />
+        <Route path="Services-Devops" element={<Devops />} />
+        <Route path="Services-Iot" element={<Iot />} />
+        <Route path="Services-Techconsultancy" element={<Techconsult />} />
+        <Route path="Services-SAAS" element={<Saas />} />
+        <Route path="Services-Android" element={<Android />} />
+        <Route path="Services-Blockchain" element={<Blockchain />} />
+        <Route path="Services-Webdevelopment" element={<Webdeveopment />} />
+        <Route path="Services-Softwaretesting" element={<Softwaretesting />} />
+        <Route path="Services-Uiuxconsulting" element={<UiUx />} />
+        <Route path="Services-Chatbot" element={<Chatbot />} />
+        <Route path="Casestudies" element={<Cstudiescomp />} />
+        <Route path="Casestudy-Relimonitor" element={<Relimonitor />} />
+        <Route path="Casestudy-PetroSIM" element={<PetroSIM />} />
+        <Route path="Casestudy-EspctQuote" element={<EspctQuote />} />
+        <Route path="Casestudy-CityGasAdani" element={<CityGasAdani />} />
+        <Route path="Casestudy-SimuLIFT" element={<SimuLift />} />
+        <Route path="Casestudy-NoraltaSCADA" element={<ScadaNoralta />} />
+        <Route path="Casestudy-EPGIS" element={<DataManagement />} />
+        <Route path="Casestudy-NoraltaFEMMS" element={<NoraltaMath />} />
+        <Route path="Casestudy-SchlumbergerBAA" element={<Peep />} />
+        <Route path="Casestudy-VoiceCallAI" element={<VoiceCallAI />} />
+        <Route path="Casestudy-SentimentalAI" element={<SentimentalAi />} />
+        <Route path="Casestudy-LogisticsAI" element={<LogisticsAi />} />
+        <Route path="Casestudy-InventoryAI" element={<InventoryAi />} />
+        <Route
+          path="Casestudy-DesignSimBORETS"
+          element={<Boretsdesignsimtool />}
+        />
+
+        <Route
+          path="*"
+          element={
+            <div className="font-manrope font-base text-3xl">
+              <p>{`There's nothing here: 404`}</p>
+            </div>
+          }
+        />
+
+      </Routes>
+    </BrowserRouter>
+
 
   );
 };
@@ -1044,13 +1050,23 @@ const Home = () => {
 
 
 
-      <Solutions />
+      {/* <Solutions /> */}
       {/* <Separatorrr /> */}
       <Casestudies />
+      <IndustryCards />
+
+      <section className='LaptopImgSection'>
+        <div className='LaptopImg'>
+          <img src={alllaptop} alt="footer" />
+        </div>
+      </section>
+
+
+
       <Reviews />
-      <Clients />
+      {/* <Clients /> */}
       <Clientele />
-      <Certificate />
+      {/* <Certificate /> */}
 
       {/* <div style={{marginBottom : "100px"}}></div> */}
       <Footer />
